@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Secret Message</title>
+    </head>
+<body>
+    <form action="/save/" method="post" name="sercret_form">
+        <p>Insert secret message here:</p>
+        <p><textarea rows="10" cols="45" name="text"></textarea></p>
+        <p>Select secret TTL</p>
+        <select name="ttl">
+            <option disabled>Please select time</option>
+            <option selected value=1>1 Day</option>
+            <option selected value=3>3 Days</option>
+            <option selected value=7>1 Week</option>
+            <option selected value=30>1 Month</option>
+          </select>
+        <p><input type="submit" value="Отправить"></p>
+    </form>
+</body>
+</html>
