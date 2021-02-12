@@ -1,6 +1,6 @@
 # 🙊 SECRET
 ![python3.8](https://img.shields.io/badge/python-3.8-green?logo=python)
-![fastapi](https://img.shields.io/badge/Backned-FastAPI-blue)
+![fastapi](https://img.shields.io/badge/Backend-FastAPI-blue)
 ![fastapi](https://img.shields.io/badge/Frontend-Static_HTML-blue)
 ![postgres](https://img.shields.io/badge/DB-PostgreSQL-blue)
 ![aes-encryption](https://img.shields.io/badge/encryption-AES-blue)
