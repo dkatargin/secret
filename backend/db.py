@@ -52,7 +52,6 @@ def db_pop(uid):
         data_list = cursor.fetchall()
         if len(data_list) == 0:
             return plaintext
-        print(data_list)
         plaintext = cipher.decrypt(data_list[0][0])
         # remove data
         postgres_delete_query = """ DELETE FROM {} WHERE uid=%s""".format(settings.DB_TABLE)
@@ -77,7 +76,6 @@ def clean_expired():
     record_to_select = (now,)
     cursor.execute(postgres_select_query, record_to_select)
     data_list = cursor.fetchall()
-    print("DATA", data_list)
     if len(data_list) == 0:
         return
 
